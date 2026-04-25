@@ -1,0 +1,492 @@
+{
+  "user_id": "USR001",
+  "name": "Arjun",
+  "total_candidates": 21,
+  "candidates": [
+    {
+      "type": "root_cause",
+      "behavior": "late dinner",
+      "symptom": "stomach pain",
+      "sessions_involved": [
+        "USR001_S01",
+        "USR001_S07"
+      ],
+      "occurrences": 2,
+      "candidate_strength": "strong",
+      "time_gaps": [],
+      "delay_tag": "immediate",
+      "consistency_score": 1.0,
+      "counter_examples": [],
+      "linked_patterns": [
+        "fatigue",
+        "eye pressure",
+        "lower back pain",
+        "headache"
+      ]
+    },
+    {
+      "type": "root_cause",
+      "behavior": "high calorie intake",
+      "symptom": "stomach pain",
+      "sessions_involved": [
+        "USR001_S01",
+        "USR001_S07"
+      ],
+      "occurrences": 2,
+      "candidate_strength": "strong",
+      "time_gaps": [],
+      "delay_tag": "immediate",
+      "consistency_score": 1.0,
+      "counter_examples": [],
+      "linked_patterns": [
+        "fatigue",
+        "eye pressure",
+        "lower back pain",
+        "headache"
+      ]
+    },
+    {
+      "type": "root_cause",
+      "behavior": "low water intake",
+      "symptom": "headache",
+      "sessions_involved": [
+        "USR001_S02",
+        "USR001_S06",
+        "USR001_S08"
+      ],
+      "occurrences": 3,
+      "candidate_strength": "strong",
+      "time_gaps": [],
+      "delay_tag": "immediate",
+      "consistency_score": 1.0,
+      "counter_examples": [],
+      "linked_patterns": [
+        "lower back pain",
+        "stomach pain",
+        "fatigue"
+      ]
+    },
+    {
+      "type": "root_cause",
+      "behavior": "late eating",
+      "symptom": "stomach pain",
+      "sessions_involved": [
+        "USR001_S04",
+        "USR001_S09"
+      ],
+      "occurrences": 2,
+      "candidate_strength": "strong",
+      "time_gaps": [],
+      "delay_tag": "immediate",
+      "consistency_score": 1.0,
+      "counter_examples": [],
+      "linked_patterns": [
+        "fatigue",
+        "headache"
+      ]
+    },
+    {
+      "type": "root_cause",
+      "behavior": "high stress",
+      "symptom": "stomach pain",
+      "sessions_involved": [
+        "USR001_S04",
+        "USR001_S09"
+      ],
+      "occurrences": 2,
+      "candidate_strength": "strong",
+      "time_gaps": [],
+      "delay_tag": "immediate",
+      "consistency_score": 1.0,
+      "counter_examples": [],
+      "linked_patterns": [
+        "fatigue",
+        "headache"
+      ]
+    },
+    {
+      "type": "root_cause",
+      "behavior": "late dinner",
+      "symptom": "stomach pain",
+      "behavior_session": "USR001_S01",
+      "symptom_session": "USR001_S04",
+      "sessions_involved": [
+        "USR001_S01",
+        "USR001_S04"
+      ],
+      "occurrences": 1,
+      "candidate_strength": "strong",
+      "time_gaps": [
+        22
+      ],
+      "delay_tag": "long_delay",
+      "consistency_score": 1.0,
+      "counter_examples": [],
+      "linked_patterns": [
+        "fatigue",
+        "eye pressure",
+        "lower back pain",
+        "headache"
+      ]
+    },
+    {
+      "type": "root_cause",
+      "behavior": "high calorie intake",
+      "symptom": "stomach pain",
+      "behavior_session": "USR001_S01",
+      "symptom_session": "USR001_S04",
+      "sessions_involved": [
+        "USR001_S01",
+        "USR001_S04"
+      ],
+      "occurrences": 1,
+      "candidate_strength": "strong",
+      "time_gaps": [
+        22
+      ],
+      "delay_tag": "long_delay",
+      "consistency_score": 1.0,
+      "counter_examples": [],
+      "linked_patterns": [
+        "fatigue",
+        "eye pressure",
+        "lower back pain",
+        "headache"
+      ]
+    },
+    {
+      "type": "root_cause",
+      "behavior": "late dinner",
+      "symptom": "stomach pain",
+      "behavior_session": "USR001_S01",
+      "symptom_session": "USR001_S07",
+      "sessions_involved": [
+        "USR001_S01",
+        "USR001_S07"
+      ],
+      "occurrences": 1,
+      "candidate_strength": "strong",
+      "time_gaps": [
+        49
+      ],
+      "delay_tag": "long_delay",
+      "consistency_score": 1.0,
+      "counter_examples": [],
+      "linked_patterns": [
+        "fatigue",
+        "eye pressure",
+        "lower back pain",
+        "headache"
+      ]
+    },
+    {
+      "type": "root_cause",
+      "behavior": "high calorie intake",
+      "symptom": "stomach pain",
+      "behavior_session": "USR001_S01",
+      "symptom_session": "USR001_S07",
+      "sessions_involved": [
+        "USR001_S01",
+        "USR001_S07"
+      ],
+      "occurrences": 1,
+      "candidate_strength": "strong",
+      "time_gaps": [
+        49
+      ],
+      "delay_tag": "long_delay",
+      "consistency_score": 1.0,
+      "counter_examples": [],
+      "linked_patterns": [
+        "fatigue",
+        "eye pressure",
+        "lower back pain",
+        "headache"
+      ]
+    },
+    {
+      "type": "root_cause",
+      "behavior": "low water intake",
+      "symptom": "headache",
+      "behavior_session": "USR001_S02",
+      "symptom_session": "USR001_S06",
+      "sessions_involved": [
+        "USR001_S02",
+        "USR001_S06"
+      ],
+      "occurrences": 1,
+      "candidate_strength": "strong",
+      "time_gaps": [
+        33
+      ],
+      "delay_tag": "long_delay",
+      "consistency_score": 1.0,
+      "counter_examples": [],
+      "linked_patterns": [
+        "lower back pain",
+        "stomach pain",
+        "fatigue"
+      ]
+    },
+    {
+      "type": "root_cause",
+      "behavior": "prolonged screen time",
+      "symptom": "headache",
+      "behavior_session": "USR001_S02",
+      "symptom_session": "USR001_S06",
+      "sessions_involved": [
+        "USR001_S02",
+        "USR001_S06"
+      ],
+      "occurrences": 1,
+      "candidate_strength": "strong",
+      "time_gaps": [
+        33
+      ],
+      "delay_tag": "long_delay",
+      "consistency_score": 1.0,
+      "counter_examples": [],
+      "linked_patterns": [
+        "lower back pain",
+        "stomach pain",
+        "fatigue"
+      ]
+    },
+    {
+      "type": "root_cause",
+      "behavior": "low water intake",
+      "symptom": "headache",
+      "behavior_session": "USR001_S02",
+      "symptom_session": "USR001_S08",
+      "sessions_involved": [
+        "USR001_S02",
+        "USR001_S08"
+      ],
+      "occurrences": 1,
+      "candidate_strength": "strong",
+      "time_gaps": [
+        55
+      ],
+      "delay_tag": "long_delay",
+      "consistency_score": 1.0,
+      "counter_examples": [],
+      "linked_patterns": [
+        "lower back pain",
+        "stomach pain",
+        "fatigue"
+      ]
+    },
+    {
+      "type": "root_cause",
+      "behavior": "prolonged screen time",
+      "symptom": "headache",
+      "behavior_session": "USR001_S02",
+      "symptom_session": "USR001_S08",
+      "sessions_involved": [
+        "USR001_S02",
+        "USR001_S08"
+      ],
+      "occurrences": 1,
+      "candidate_strength": "strong",
+      "time_gaps": [
+        55
+      ],
+      "delay_tag": "long_delay",
+      "consistency_score": 1.0,
+      "counter_examples": [],
+      "linked_patterns": [
+        "lower back pain",
+        "stomach pain",
+        "fatigue"
+      ]
+    },
+    {
+      "type": "root_cause",
+      "behavior": "late eating",
+      "symptom": "stomach pain",
+      "behavior_session": "USR001_S04",
+      "symptom_session": "USR001_S07",
+      "sessions_involved": [
+        "USR001_S04",
+        "USR001_S07"
+      ],
+      "occurrences": 1,
+      "candidate_strength": "strong",
+      "time_gaps": [
+        26
+      ],
+      "delay_tag": "long_delay",
+      "consistency_score": 1.0,
+      "counter_examples": [],
+      "linked_patterns": [
+        "fatigue",
+        "headache"
+      ]
+    },
+    {
+      "type": "root_cause",
+      "behavior": "high stress",
+      "symptom": "stomach pain",
+      "behavior_session": "USR001_S04",
+      "symptom_session": "USR001_S07",
+      "sessions_involved": [
+        "USR001_S04",
+        "USR001_S07"
+      ],
+      "occurrences": 1,
+      "candidate_strength": "strong",
+      "time_gaps": [
+        26
+      ],
+      "delay_tag": "long_delay",
+      "consistency_score": 1.0,
+      "counter_examples": [],
+      "linked_patterns": [
+        "fatigue",
+        "headache"
+      ]
+    },
+    {
+      "type": "root_cause",
+      "behavior": "late eating",
+      "symptom": "stomach pain",
+      "behavior_session": "USR001_S04",
+      "symptom_session": "USR001_S09",
+      "sessions_involved": [
+        "USR001_S04",
+        "USR001_S09"
+      ],
+      "occurrences": 1,
+      "candidate_strength": "strong",
+      "time_gaps": [
+        50
+      ],
+      "delay_tag": "long_delay",
+      "consistency_score": 1.0,
+      "counter_examples": [],
+      "linked_patterns": [
+        "fatigue",
+        "headache"
+      ]
+    },
+    {
+      "type": "root_cause",
+      "behavior": "high stress",
+      "symptom": "stomach pain",
+      "behavior_session": "USR001_S04",
+      "symptom_session": "USR001_S09",
+      "sessions_involved": [
+        "USR001_S04",
+        "USR001_S09"
+      ],
+      "occurrences": 1,
+      "candidate_strength": "strong",
+      "time_gaps": [
+        50
+      ],
+      "delay_tag": "long_delay",
+      "consistency_score": 1.0,
+      "counter_examples": [],
+      "linked_patterns": [
+        "fatigue",
+        "headache"
+      ]
+    },
+    {
+      "type": "root_cause",
+      "behavior": "low water intake",
+      "symptom": "headache",
+      "behavior_session": "USR001_S06",
+      "symptom_session": "USR001_S08",
+      "sessions_involved": [
+        "USR001_S06",
+        "USR001_S08"
+      ],
+      "occurrences": 1,
+      "candidate_strength": "strong",
+      "time_gaps": [
+        22
+      ],
+      "delay_tag": "long_delay",
+      "consistency_score": 1.0,
+      "counter_examples": [],
+      "linked_patterns": [
+        "lower back pain",
+        "stomach pain",
+        "fatigue"
+      ]
+    },
+    {
+      "type": "delayed_effect",
+      "behavior": "high coffee intake",
+      "symptom": "headache",
+      "behavior_session": "USR001_S06",
+      "symptom_session": "USR001_S08",
+      "sessions_involved": [
+        "USR001_S06",
+        "USR001_S08"
+      ],
+      "occurrences": 1,
+      "candidate_strength": "weak",
+      "time_gaps": [
+        22
+      ],
+      "delay_tag": "long_delay",
+      "consistency_score": 1.0,
+      "counter_examples": [],
+      "linked_patterns": [
+        "stomach pain"
+      ]
+    },
+    {
+      "type": "root_cause",
+      "behavior": "late dinner",
+      "symptom": "stomach pain",
+      "behavior_session": "USR001_S07",
+      "symptom_session": "USR001_S09",
+      "sessions_involved": [
+        "USR001_S07",
+        "USR001_S09"
+      ],
+      "occurrences": 1,
+      "candidate_strength": "strong",
+      "time_gaps": [
+        23
+      ],
+      "delay_tag": "long_delay",
+      "consistency_score": 1.0,
+      "counter_examples": [],
+      "linked_patterns": [
+        "fatigue",
+        "eye pressure",
+        "lower back pain",
+        "headache"
+      ]
+    },
+    {
+      "type": "root_cause",
+      "behavior": "high calorie intake",
+      "symptom": "stomach pain",
+      "behavior_session": "USR001_S07",
+      "symptom_session": "USR001_S09",
+      "sessions_involved": [
+        "USR001_S07",
+        "USR001_S09"
+      ],
+      "occurrences": 1,
+      "candidate_strength": "strong",
+      "time_gaps": [
+        23
+      ],
+      "delay_tag": "long_delay",
+      "consistency_score": 1.0,
+      "counter_examples": [],
+      "linked_patterns": [
+        "fatigue",
+        "eye pressure",
+        "lower back pain",
+        "headache"
+      ]
+    }
+  ]
+}

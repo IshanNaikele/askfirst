@@ -1,0 +1,217 @@
+{
+  "user_id": "USR003",
+  "name": "Priya",
+  "total_patterns_confirmed": 6,
+  "total_patterns_rejected": 1,
+  "confirmed_patterns": [
+    {
+      "pattern": "Late night screen use causes fatigue",
+      "behavior": "late night screen use",
+      "symptom": "fatigue",
+      "confidence": "medium",
+      "sessions_involved": [
+        "USR003_S04",
+        "USR003_S07",
+        "USR003_S09"
+      ],
+      "delay_type": "immediate",
+      "consistency_score": 0.67,
+      "counter_examples_found": 1,
+      "root_cause": null,
+      "downstream_patterns": [
+        "cramps",
+        "sleep deprivation",
+        "menstrual cramps",
+        "anxiety",
+        "period cramps"
+      ],
+      "reasoning_trace": [
+        "Step 1: Code detected late night screen use as a potential cause of fatigue",
+        "Step 2: Time order check shows late night screen use precedes fatigue in USR003_S04 and USR003_S07",
+        "Step 3: Consistency check shows late night screen use is not always followed by fatigue, e.g., USR003_S09",
+        "Step 4: Counter example check found USR003_S09 as a counter example",
+        "Step 5: Final verdict with medium confidence due to limited consistency and counter examples"
+      ],
+      "rejected": false
+    },
+    {
+      "pattern": "High carbohydrate intake at lunch causes fatigue",
+      "behavior": "high carbohydrate intake at lunch",
+      "symptom": "fatigue",
+      "confidence": "medium",
+      "sessions_involved": [
+        "USR003_S01",
+        "USR003_S03"
+      ],
+      "delay_type": "long_delay",
+      "consistency_score": 1.0,
+      "counter_examples_found": 0,
+      "root_cause": null,
+      "downstream_patterns": [
+        "premenstrual cramps",
+        "sleep deprivation",
+        "hypoglycemia",
+        "anxiety",
+        "low mood",
+        "period cramps"
+      ],
+      "reasoning_trace": [
+        "Step 1: Code detected high carbohydrate intake at lunch as a potential cause of fatigue",
+        "Step 2: Time order check shows high carbohydrate intake at lunch precedes fatigue in USR003_S01 and USR003_S03",
+        "Step 3: Consistency check shows high carbohydrate intake at lunch is always followed by fatigue in these sessions",
+        "Step 4: Counter example check found no counter examples",
+        "Step 5: Final verdict with medium confidence due to limited occurrences"
+      ],
+      "rejected": false
+    },
+    {
+      "pattern": "Low protein intake at lunch causes fatigue",
+      "behavior": "low protein intake at lunch",
+      "symptom": "fatigue",
+      "confidence": "medium",
+      "sessions_involved": [
+        "USR003_S01",
+        "USR003_S03"
+      ],
+      "delay_type": "long_delay",
+      "consistency_score": 1.0,
+      "counter_examples_found": 0,
+      "root_cause": null,
+      "downstream_patterns": [
+        "premenstrual cramps",
+        "sleep deprivation",
+        "hypoglycemia",
+        "anxiety",
+        "low mood",
+        "period cramps"
+      ],
+      "reasoning_trace": [
+        "Step 1: Code detected low protein intake at lunch as a potential cause of fatigue",
+        "Step 2: Time order check shows low protein intake at lunch precedes fatigue in USR003_S01 and USR003_S03",
+        "Step 3: Consistency check shows low protein intake at lunch is always followed by fatigue in these sessions",
+        "Step 4: Counter example check found no counter examples",
+        "Step 5: Final verdict with medium confidence due to limited occurrences"
+      ],
+      "rejected": false
+    },
+    {
+      "pattern": "Low calorie intake causes fatigue",
+      "behavior": "low calorie intake",
+      "symptom": "fatigue",
+      "confidence": "medium",
+      "sessions_involved": [
+        "USR003_S03",
+        "USR003_S04"
+      ],
+      "delay_type": "short_delay",
+      "consistency_score": 1.0,
+      "counter_examples_found": 0,
+      "root_cause": null,
+      "downstream_patterns": [
+        "cramps",
+        "sleep deprivation",
+        "anxiety",
+        "menstrual cramps",
+        "low mood",
+        "period cramps"
+      ],
+      "reasoning_trace": [
+        "Step 1: Code detected low calorie intake as a potential cause of fatigue",
+        "Step 2: Time order check shows low calorie intake precedes fatigue in USR003_S03 and USR003_S04",
+        "Step 3: Consistency check shows low calorie intake is always followed by fatigue in these sessions",
+        "Step 4: Counter example check found no counter examples",
+        "Step 5: Final verdict with medium confidence due to limited occurrences"
+      ],
+      "rejected": false
+    },
+    {
+      "pattern": "High sugar intake causes fatigue",
+      "behavior": "high sugar intake",
+      "symptom": "fatigue",
+      "confidence": "medium",
+      "sessions_involved": [
+        "USR003_S03",
+        "USR003_S04"
+      ],
+      "delay_type": "short_delay",
+      "consistency_score": 1.0,
+      "counter_examples_found": 0,
+      "root_cause": null,
+      "downstream_patterns": [
+        "cramps",
+        "sleep deprivation",
+        "anxiety",
+        "menstrual cramps",
+        "low mood",
+        "period cramps"
+      ],
+      "reasoning_trace": [
+        "Step 1: Code detected high sugar intake as a potential cause of fatigue",
+        "Step 2: Time order check shows high sugar intake precedes fatigue in USR003_S03 and USR003_S04",
+        "Step 3: Consistency check shows high sugar intake is always followed by fatigue in these sessions",
+        "Step 4: Counter example check found no counter examples",
+        "Step 5: Final verdict with medium confidence due to limited occurrences"
+      ],
+      "rejected": false
+    },
+    {
+      "pattern": "Irregular sleep schedule causes fatigue",
+      "behavior": "irregular sleep schedule",
+      "symptom": "fatigue",
+      "confidence": "medium",
+      "sessions_involved": [
+        "USR003_S04",
+        "USR003_S06"
+      ],
+      "delay_type": "long_delay",
+      "consistency_score": 1.0,
+      "counter_examples_found": 0,
+      "root_cause": null,
+      "downstream_patterns": [
+        "cramps",
+        "sleep deprivation",
+        "menstrual cramps",
+        "anxiety",
+        "period cramps"
+      ],
+      "reasoning_trace": [
+        "Step 1: Code detected irregular sleep schedule as a potential cause of fatigue",
+        "Step 2: Time order check shows irregular sleep schedule precedes fatigue in USR003_S04 and USR003_S06",
+        "Step 3: Consistency check shows irregular sleep schedule is always followed by fatigue in these sessions",
+        "Step 4: Counter example check found no counter examples",
+        "Step 5: Final verdict with medium confidence due to limited occurrences"
+      ],
+      "rejected": false
+    }
+  ],
+  "rejected_patterns": [
+    {
+      "pattern": "High protein intake at lunch causes fatigue",
+      "behavior": "high protein intake at lunch",
+      "symptom": "fatigue",
+      "confidence": "low",
+      "sessions_involved": [
+        "USR003_S06",
+        "USR003_S07"
+      ],
+      "delay_type": "short_delay",
+      "consistency_score": 1.0,
+      "counter_examples_found": 0,
+      "root_cause": null,
+      "downstream_patterns": [
+        "cramps",
+        "sleep deprivation",
+        "menstrual cramps",
+        "anxiety"
+      ],
+      "reasoning_trace": [
+        "Step 1: Code detected high protein intake at lunch as a potential cause of fatigue",
+        "Step 2: Time order check shows high protein intake at lunch precedes fatigue in USR003_S06 and USR003_S07",
+        "Step 3: Consistency check shows high protein intake at lunch is always followed by fatigue in these sessions",
+        "Step 4: Counter example check found no counter examples",
+        "Step 5: Final verdict with low confidence due to very limited occurrences"
+      ],
+      "rejected": true
+    }
+  ]
+}

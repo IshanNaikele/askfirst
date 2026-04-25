@@ -1,0 +1,275 @@
+{
+  "user_id": "USR003",
+  "name": "Priya",
+  "age": 28,
+  "gender": "female",
+  "location": "Hyderabad",
+  "occupation": "Product manager",
+  "total_sessions": 9,
+  "date_range": {
+    "first_session": "2026-01-06T14:30:00",
+    "last_session": "2026-03-16T10:20:00",
+    "total_days": 68
+  },
+  "timeline": [
+    {
+      "session_id": "USR003_S01",
+      "timestamp": "2026-01-06T14:30:00",
+      "days_since_start": 0,
+      "days_since_previous": 0,
+      "symptoms": [
+        {
+          "name": "fatigue",
+          "intensity": "moderate",
+          "certainty": "reported"
+        }
+      ],
+      "behaviors": [
+        "high carbohydrate intake at lunch",
+        "low protein intake at lunch"
+      ],
+      "context": [
+        "postprandial dip"
+      ],
+      "clary_interpretation": "A large carbohydrate-heavy lunch causes a blood sugar spike followed by a crash around 1-2 hours later.",
+      "event_window": [
+        "USR003_S01"
+      ]
+    },
+    {
+      "session_id": "USR003_S02",
+      "timestamp": "2026-01-14T21:00:00",
+      "days_since_start": 8,
+      "days_since_previous": 8,
+      "symptoms": [
+        {
+          "name": "premenstrual cramps",
+          "intensity": "moderate",
+          "certainty": "reported"
+        }
+      ],
+      "behaviors": [],
+      "context": [
+        "high stress levels",
+        "broken sleep"
+      ],
+      "clary_interpretation": "Pre-menstrual cramping can intensify with high cortisol levels from stress.",
+      "event_window": [
+        "USR003_S01",
+        "USR003_S02"
+      ]
+    },
+    {
+      "session_id": "USR003_S03",
+      "timestamp": "2026-01-23T10:15:00",
+      "days_since_start": 16,
+      "days_since_previous": 8,
+      "symptoms": [
+        {
+          "name": "hypoglycemia",
+          "intensity": "moderate",
+          "certainty": "reported"
+        },
+        {
+          "name": "fatigue",
+          "intensity": "moderate",
+          "certainty": "reported"
+        }
+      ],
+      "behaviors": [
+        "low calorie intake",
+        "high carbohydrate intake",
+        "high sugar intake"
+      ],
+      "context": [
+        "postprandial",
+        "lunch"
+      ],
+      "clary_interpretation": "Biscuits caused a smaller spike and crash due to high sugar content.",
+      "event_window": [
+        "USR003_S01",
+        "USR003_S02",
+        "USR003_S03"
+      ]
+    },
+    {
+      "session_id": "USR003_S04",
+      "timestamp": "2026-02-03T19:45:00",
+      "days_since_start": 28,
+      "days_since_previous": 11,
+      "symptoms": [
+        {
+          "name": "fatigue",
+          "intensity": "moderate",
+          "certainty": "reported"
+        },
+        {
+          "name": "low mood",
+          "intensity": "mild",
+          "certainty": "reported"
+        }
+      ],
+      "behaviors": [
+        "late night screen use",
+        "irregular sleep schedule"
+      ],
+      "context": [
+        "work"
+      ],
+      "clary_interpretation": "Chronic late night screen use disrupts melatonin production, affecting sleep quality and mood.",
+      "event_window": [
+        "USR003_S02",
+        "USR003_S03",
+        "USR003_S04"
+      ]
+    },
+    {
+      "session_id": "USR003_S05",
+      "timestamp": "2026-02-11T22:30:00",
+      "days_since_start": 36,
+      "days_since_previous": 8,
+      "symptoms": [
+        {
+          "name": "period cramps",
+          "intensity": "severe",
+          "certainty": "reported"
+        }
+      ],
+      "behaviors": [
+        "high work stress",
+        "poor sleep",
+        "late nights"
+      ],
+      "context": [
+        "approaching menstrual period"
+      ],
+      "clary_interpretation": "Sustained stress state heading into period may be exacerbating cramping response.",
+      "event_window": [
+        "USR003_S03",
+        "USR003_S04",
+        "USR003_S05"
+      ]
+    },
+    {
+      "session_id": "USR003_S06",
+      "timestamp": "2026-02-20T13:00:00",
+      "days_since_start": 44,
+      "days_since_previous": 8,
+      "symptoms": [
+        {
+          "name": "fatigue",
+          "intensity": "moderate",
+          "certainty": "reported"
+        }
+      ],
+      "behaviors": [
+        "high protein intake at lunch"
+      ],
+      "context": [
+        "blood sugar crash"
+      ],
+      "clary_interpretation": "Protein at lunch making a measurable difference this quickly confirms the blood sugar crash was the primary cause of your afternoon fatigue.",
+      "event_window": [
+        "USR003_S04",
+        "USR003_S05",
+        "USR003_S06"
+      ]
+    },
+    {
+      "session_id": "USR003_S07",
+      "timestamp": "2026-02-28T20:00:00",
+      "days_since_start": 53,
+      "days_since_previous": 8,
+      "symptoms": [
+        {
+          "name": "anxiety",
+          "intensity": "mild",
+          "certainty": "reported"
+        },
+        {
+          "name": "fatigue",
+          "intensity": "moderate",
+          "certainty": "reported"
+        },
+        {
+          "name": "sleep deprivation",
+          "intensity": "moderate",
+          "certainty": "reported"
+        }
+      ],
+      "behaviors": [
+        "late night screen use"
+      ],
+      "context": [
+        "work is a bit calmer now"
+      ],
+      "clary_interpretation": "Chronic sleep deprivation and late night screen use are likely causing baseline cortisol elevation and diffuse anxiety.",
+      "event_window": [
+        "USR003_S05",
+        "USR003_S06",
+        "USR003_S07"
+      ]
+    },
+    {
+      "session_id": "USR003_S08",
+      "timestamp": "2026-03-10T21:45:00",
+      "days_since_start": 63,
+      "days_since_previous": 10,
+      "symptoms": [
+        {
+          "name": "menstrual cramps",
+          "intensity": "moderate",
+          "certainty": "reported"
+        },
+        {
+          "name": "stress",
+          "intensity": "mild",
+          "certainty": "resolved"
+        },
+        {
+          "name": "sleep deprivation",
+          "intensity": "moderate",
+          "certainty": "suspected"
+        }
+      ],
+      "behaviors": [
+        "low sleep quality"
+      ],
+      "context": [
+        "menstruation"
+      ],
+      "clary_interpretation": "Sleep deprivation and its effect on cortisol may be independently driving the cramping.",
+      "event_window": [
+        "USR003_S06",
+        "USR003_S07",
+        "USR003_S08"
+      ]
+    },
+    {
+      "session_id": "USR003_S09",
+      "timestamp": "2026-03-16T10:20:00",
+      "days_since_start": 68,
+      "days_since_previous": 5,
+      "symptoms": [
+        {
+          "name": "cramps",
+          "intensity": "severe",
+          "certainty": "reported"
+        }
+      ],
+      "behaviors": [
+        "late night screen use"
+      ],
+      "context": [
+        "high stress",
+        "bad sleep"
+      ],
+      "clary_interpretation": "Elevated cortisol from chronic sleep deprivation appears to be the consistent driver of cramp severity.",
+      "event_window": [
+        "USR003_S07",
+        "USR003_S08",
+        "USR003_S09"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "user_id": "USR002",
+  "name": "Meera",
+  "total_patterns_confirmed": 4,
+  "total_patterns_rejected": 1,
+  "confirmed_patterns": [
+    {
+      "pattern": "High dairy intake causes acne",
+      "behavior": "high dairy intake",
+      "symptom": "acne",
+      "confidence": "very_high",
+      "sessions_involved": [
+        "USR002_S02",
+        "USR002_S03",
+        "USR002_S07",
+        "USR002_S08"
+      ],
+      "delay_type": "immediate",
+      "consistency_score": 1.0,
+      "counter_examples_found": 0,
+      "root_cause": null,
+      "downstream_patterns": [
+        "acne on jawline"
+      ],
+      "reasoning_trace": [
+        "Step 1: Candidate patterns detected high dairy intake causing acne in multiple sessions",
+        "Step 2: Time order check confirms high dairy intake precedes acne",
+        "Step 3: Consistency check shows high dairy intake always leads to acne in involved sessions",
+        "Step 4: No counter examples found where high dairy intake does not lead to acne",
+        "Step 5: Very high confidence due to multiple occurrences and no counter examples"
+      ],
+      "rejected": false
+    },
+    {
+      "pattern": "Low dairy intake may not prevent acne",
+      "behavior": "low dairy intake",
+      "symptom": "acne",
+      "confidence": "medium",
+      "sessions_involved": [
+        "USR002_S04",
+        "USR002_S07"
+      ],
+      "delay_type": "immediate",
+      "consistency_score": 0.5,
+      "counter_examples_found": 1,
+      "root_cause": null,
+      "downstream_patterns": [],
+      "reasoning_trace": [
+        "Step 1: Candidate patterns detected low dairy intake in sessions with acne",
+        "Step 2: Time order check shows low dairy intake does not always prevent acne",
+        "Step 3: Consistency check reveals low dairy intake does not consistently prevent acne",
+        "Step 4: Counter example found where low dairy intake does not prevent acne",
+        "Step 5: Medium confidence due to inconsistent relationship between low dairy intake and acne prevention"
+      ],
+      "rejected": false
+    },
+    {
+      "pattern": "Intermittent fasting may cause hair loss",
+      "behavior": "intermittent fasting",
+      "symptom": "hair loss",
+      "confidence": "medium",
+      "sessions_involved": [
+        "USR002_S01",
+        "USR002_S06"
+      ],
+      "delay_type": "long_delay",
+      "consistency_score": 0.5,
+      "counter_examples_found": 0,
+      "root_cause": null,
+      "downstream_patterns": [
+        "fatigue",
+        "brain fog"
+      ],
+      "reasoning_trace": [
+        "Step 1: Candidate pattern detected intermittent fasting preceding hair loss",
+        "Step 2: Time order check confirms intermittent fasting precedes hair loss with a delay",
+        "Step 3: Consistency check shows intermittent fasting may contribute to hair loss but not consistently",
+        "Step 4: No counter examples found, but relationship is not strongly consistent",
+        "Step 5: Medium confidence due to delayed effect and limited occurrences"
+      ],
+      "rejected": false
+    },
+    {
+      "pattern": "Low calorie intake causes fatigue and brain fog",
+      "behavior": "low calorie intake",
+      "symptom": "fatigue, brain fog",
+      "confidence": "high",
+      "sessions_involved": [
+        "USR002_S01"
+      ],
+      "delay_type": "immediate",
+      "consistency_score": 0.8,
+      "counter_examples_found": 0,
+      "root_cause": null,
+      "downstream_patterns": [
+        "workout difficulty"
+      ],
+      "reasoning_trace": [
+        "Step 1: Candidate pattern detected low calorie intake preceding fatigue and brain fog",
+        "Step 2: Time order check confirms low calorie intake precedes symptoms",
+        "Step 3: Consistency check shows low calorie intake consistently leads to fatigue and brain fog",
+        "Step 4: No counter examples found",
+        "Step 5: High confidence due to consistent relationship and no counter examples"
+      ],
+      "rejected": false
+    }
+  ],
+  "rejected_patterns": [
+    {
+      "pattern": "High dairy intake does not cause hair loss directly",
+      "behavior": "high dairy intake",
+      "symptom": "hair loss",
+      "confidence": "low",
+      "sessions_involved": [],
+      "delay_type": null,
+      "consistency_score": 0.0,
+      "counter_examples_found": 2,
+      "root_cause": null,
+      "downstream_patterns": [],
+      "reasoning_trace": [
+        "Step 1: Candidate patterns suggested high dairy intake might cause hair loss",
+        "Step 2: Time order check and consistency check do not support a direct causal relationship",
+        "Step 3: Counter examples found where high dairy intake does not lead to hair loss",
+        "Step 4: Relationship between high dairy intake and hair loss is not supported",
+        "Step 5: Low confidence, pattern rejected due to lack of evidence and counter examples"
+      ],
+      "rejected": true
+    }
+  ]
+}

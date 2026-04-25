@@ -1,0 +1,251 @@
+{
+  "user_id": "USR001",
+  "name": "Arjun",
+  "age": 26,
+  "gender": "male",
+  "location": "Bangalore",
+  "occupation": "Software engineer",
+  "total_sessions": 9,
+  "date_range": {
+    "first_session": "2026-01-05T23:14:00",
+    "last_session": "2026-03-19T10:15:00",
+    "total_days": 72
+  },
+  "timeline": [
+    {
+      "session_id": "USR001_S01",
+      "timestamp": "2026-01-05T23:14:00",
+      "days_since_start": 0,
+      "days_since_previous": 0,
+      "symptoms": [
+        {
+          "name": "stomach pain",
+          "intensity": "moderate",
+          "certainty": "reported"
+        }
+      ],
+      "behaviors": [
+        "late dinner",
+        "high calorie intake"
+      ],
+      "context": [
+        "work stress"
+      ],
+      "clary_interpretation": "Acidity from eating late could be the cause of stomach pain.",
+      "event_window": [
+        "USR001_S01"
+      ]
+    },
+    {
+      "session_id": "USR001_S02",
+      "timestamp": "2026-01-12T10:30:00",
+      "days_since_start": 6,
+      "days_since_previous": 6,
+      "symptoms": [
+        {
+          "name": "headache",
+          "intensity": "mild",
+          "certainty": "reported"
+        },
+        {
+          "name": "eye pressure",
+          "intensity": "mild",
+          "certainty": "reported"
+        }
+      ],
+      "behaviors": [
+        "low water intake",
+        "prolonged screen time"
+      ],
+      "context": [
+        "work-related"
+      ],
+      "clary_interpretation": "afternoon headaches with low water intake points strongly to dehydration. screen strain adds to it.",
+      "event_window": [
+        "USR001_S01",
+        "USR001_S02"
+      ]
+    },
+    {
+      "session_id": "USR001_S03",
+      "timestamp": "2026-01-19T09:15:00",
+      "days_since_start": 13,
+      "days_since_previous": 6,
+      "symptoms": [
+        {
+          "name": "lower back pain",
+          "intensity": "moderate",
+          "certainty": "reported"
+        }
+      ],
+      "behaviors": [
+        "prolonged sitting",
+        "low physical activity"
+      ],
+      "context": [
+        "work-related"
+      ],
+      "clary_interpretation": "Classic desk-related lower back strain due to prolonged sitting and poor posture.",
+      "event_window": [
+        "USR001_S01",
+        "USR001_S02",
+        "USR001_S03"
+      ]
+    },
+    {
+      "session_id": "USR001_S04",
+      "timestamp": "2026-01-28T00:42:00",
+      "days_since_start": 22,
+      "days_since_previous": 8,
+      "symptoms": [
+        {
+          "name": "stomach pain",
+          "intensity": "moderate",
+          "certainty": "reported"
+        }
+      ],
+      "behaviors": [
+        "late eating",
+        "high stress"
+      ],
+      "context": [
+        "work-related stress"
+      ],
+      "clary_interpretation": "Combination of late eating and stress is likely triggering acid production.",
+      "event_window": [
+        "USR001_S02",
+        "USR001_S03",
+        "USR001_S04"
+      ]
+    },
+    {
+      "session_id": "USR001_S05",
+      "timestamp": "2026-02-04T15:22:00",
+      "days_since_start": 29,
+      "days_since_previous": 7,
+      "symptoms": [
+        {
+          "name": "fatigue",
+          "intensity": "moderate",
+          "certainty": "reported"
+        }
+      ],
+      "behaviors": [
+        "irregular sleep schedule",
+        "low calorie intake"
+      ],
+      "context": [
+        "work schedule conflict"
+      ],
+      "clary_interpretation": "Sleep timing is crucial for recovery, shifting bedtime 30 minutes earlier may help.",
+      "event_window": [
+        "USR001_S03",
+        "USR001_S04",
+        "USR001_S05"
+      ]
+    },
+    {
+      "session_id": "USR001_S06",
+      "timestamp": "2026-02-14T11:05:00",
+      "days_since_start": 39,
+      "days_since_previous": 9,
+      "symptoms": [
+        {
+          "name": "headache",
+          "intensity": "moderate",
+          "certainty": "reported"
+        }
+      ],
+      "behaviors": [
+        "low water intake",
+        "high coffee intake"
+      ],
+      "context": [
+        "heavy work schedule"
+      ],
+      "clary_interpretation": "coffee consumption without adequate water intake may exacerbate dehydration and headaches",
+      "event_window": [
+        "USR001_S04",
+        "USR001_S05",
+        "USR001_S06"
+      ]
+    },
+    {
+      "session_id": "USR001_S07",
+      "timestamp": "2026-02-23T23:55:00",
+      "days_since_start": 49,
+      "days_since_previous": 9,
+      "symptoms": [
+        {
+          "name": "stomach pain",
+          "intensity": "moderate",
+          "certainty": "reported"
+        }
+      ],
+      "behaviors": [
+        "late dinner",
+        "high calorie intake"
+      ],
+      "context": [
+        "work deadlines"
+      ],
+      "clary_interpretation": "Stomach pain is consistently reacting to late eating, indicating a habit change is needed.",
+      "event_window": [
+        "USR001_S05",
+        "USR001_S06",
+        "USR001_S07"
+      ]
+    },
+    {
+      "session_id": "USR001_S08",
+      "timestamp": "2026-03-08T16:40:00",
+      "days_since_start": 61,
+      "days_since_previous": 12,
+      "symptoms": [
+        {
+          "name": "headache",
+          "intensity": "moderate",
+          "certainty": "reported"
+        }
+      ],
+      "behaviors": [
+        "low water intake"
+      ],
+      "context": [
+        "high workload"
+      ],
+      "clary_interpretation": "Headaches are a hydration and workload signal, not a random health issue.",
+      "event_window": [
+        "USR001_S06",
+        "USR001_S07",
+        "USR001_S08"
+      ]
+    },
+    {
+      "session_id": "USR001_S09",
+      "timestamp": "2026-03-19T10:15:00",
+      "days_since_start": 72,
+      "days_since_previous": 10,
+      "symptoms": [
+        {
+          "name": "stomach pain",
+          "intensity": "mild",
+          "certainty": "reported"
+        }
+      ],
+      "behaviors": [
+        "late eating",
+        "high stress"
+      ],
+      "context": [
+        "work deadline"
+      ],
+      "clary_interpretation": "Late eating habit is likely causing stomach pain, not a stomach condition.",
+      "event_window": [
+        "USR001_S07",
+        "USR001_S08",
+        "USR001_S09"
+      ]
+    }
+  ]
+}

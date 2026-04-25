@@ -1,0 +1,623 @@
+{
+  "user_id": "USR003",
+  "name": "Priya",
+  "total_candidates": 23,
+  "candidates": [
+    {
+      "type": "root_cause",
+      "behavior": "late night screen use",
+      "symptom": "fatigue",
+      "sessions_involved": [
+        "USR003_S04",
+        "USR003_S07"
+      ],
+      "occurrences": 2,
+      "candidate_strength": "strong",
+      "time_gaps": [],
+      "delay_tag": "immediate",
+      "consistency_score": 0.67,
+      "counter_examples": [
+        "USR003_S09"
+      ],
+      "linked_patterns": [
+        "cramps",
+        "sleep deprivation",
+        "menstrual cramps",
+        "anxiety",
+        "period cramps"
+      ]
+    },
+    {
+      "type": "root_cause",
+      "behavior": "high carbohydrate intake at lunch",
+      "symptom": "fatigue",
+      "behavior_session": "USR003_S01",
+      "symptom_session": "USR003_S03",
+      "sessions_involved": [
+        "USR003_S01",
+        "USR003_S03"
+      ],
+      "occurrences": 1,
+      "candidate_strength": "strong",
+      "time_gaps": [
+        16
+      ],
+      "delay_tag": "long_delay",
+      "consistency_score": 1.0,
+      "counter_examples": [],
+      "linked_patterns": [
+        "premenstrual cramps",
+        "sleep deprivation",
+        "hypoglycemia",
+        "anxiety",
+        "low mood",
+        "period cramps"
+      ]
+    },
+    {
+      "type": "root_cause",
+      "behavior": "low protein intake at lunch",
+      "symptom": "fatigue",
+      "behavior_session": "USR003_S01",
+      "symptom_session": "USR003_S03",
+      "sessions_involved": [
+        "USR003_S01",
+        "USR003_S03"
+      ],
+      "occurrences": 1,
+      "candidate_strength": "strong",
+      "time_gaps": [
+        16
+      ],
+      "delay_tag": "long_delay",
+      "consistency_score": 1.0,
+      "counter_examples": [],
+      "linked_patterns": [
+        "premenstrual cramps",
+        "sleep deprivation",
+        "hypoglycemia",
+        "anxiety",
+        "low mood",
+        "period cramps"
+      ]
+    },
+    {
+      "type": "root_cause",
+      "behavior": "high carbohydrate intake at lunch",
+      "symptom": "fatigue",
+      "behavior_session": "USR003_S01",
+      "symptom_session": "USR003_S04",
+      "sessions_involved": [
+        "USR003_S01",
+        "USR003_S04"
+      ],
+      "occurrences": 1,
+      "candidate_strength": "strong",
+      "time_gaps": [
+        28
+      ],
+      "delay_tag": "long_delay",
+      "consistency_score": 1.0,
+      "counter_examples": [],
+      "linked_patterns": [
+        "premenstrual cramps",
+        "sleep deprivation",
+        "hypoglycemia",
+        "anxiety",
+        "low mood",
+        "period cramps"
+      ]
+    },
+    {
+      "type": "root_cause",
+      "behavior": "low protein intake at lunch",
+      "symptom": "fatigue",
+      "behavior_session": "USR003_S01",
+      "symptom_session": "USR003_S04",
+      "sessions_involved": [
+        "USR003_S01",
+        "USR003_S04"
+      ],
+      "occurrences": 1,
+      "candidate_strength": "strong",
+      "time_gaps": [
+        28
+      ],
+      "delay_tag": "long_delay",
+      "consistency_score": 1.0,
+      "counter_examples": [],
+      "linked_patterns": [
+        "premenstrual cramps",
+        "sleep deprivation",
+        "hypoglycemia",
+        "anxiety",
+        "low mood",
+        "period cramps"
+      ]
+    },
+    {
+      "type": "root_cause",
+      "behavior": "high carbohydrate intake at lunch",
+      "symptom": "fatigue",
+      "behavior_session": "USR003_S01",
+      "symptom_session": "USR003_S06",
+      "sessions_involved": [
+        "USR003_S01",
+        "USR003_S06"
+      ],
+      "occurrences": 1,
+      "candidate_strength": "strong",
+      "time_gaps": [
+        44
+      ],
+      "delay_tag": "long_delay",
+      "consistency_score": 1.0,
+      "counter_examples": [],
+      "linked_patterns": [
+        "premenstrual cramps",
+        "sleep deprivation",
+        "hypoglycemia",
+        "anxiety",
+        "low mood",
+        "period cramps"
+      ]
+    },
+    {
+      "type": "root_cause",
+      "behavior": "low protein intake at lunch",
+      "symptom": "fatigue",
+      "behavior_session": "USR003_S01",
+      "symptom_session": "USR003_S06",
+      "sessions_involved": [
+        "USR003_S01",
+        "USR003_S06"
+      ],
+      "occurrences": 1,
+      "candidate_strength": "strong",
+      "time_gaps": [
+        44
+      ],
+      "delay_tag": "long_delay",
+      "consistency_score": 1.0,
+      "counter_examples": [],
+      "linked_patterns": [
+        "premenstrual cramps",
+        "sleep deprivation",
+        "hypoglycemia",
+        "anxiety",
+        "low mood",
+        "period cramps"
+      ]
+    },
+    {
+      "type": "root_cause",
+      "behavior": "high carbohydrate intake at lunch",
+      "symptom": "fatigue",
+      "behavior_session": "USR003_S01",
+      "symptom_session": "USR003_S07",
+      "sessions_involved": [
+        "USR003_S01",
+        "USR003_S07"
+      ],
+      "occurrences": 1,
+      "candidate_strength": "strong",
+      "time_gaps": [
+        53
+      ],
+      "delay_tag": "long_delay",
+      "consistency_score": 1.0,
+      "counter_examples": [],
+      "linked_patterns": [
+        "premenstrual cramps",
+        "sleep deprivation",
+        "hypoglycemia",
+        "anxiety",
+        "low mood",
+        "period cramps"
+      ]
+    },
+    {
+      "type": "root_cause",
+      "behavior": "low protein intake at lunch",
+      "symptom": "fatigue",
+      "behavior_session": "USR003_S01",
+      "symptom_session": "USR003_S07",
+      "sessions_involved": [
+        "USR003_S01",
+        "USR003_S07"
+      ],
+      "occurrences": 1,
+      "candidate_strength": "strong",
+      "time_gaps": [
+        53
+      ],
+      "delay_tag": "long_delay",
+      "consistency_score": 1.0,
+      "counter_examples": [],
+      "linked_patterns": [
+        "premenstrual cramps",
+        "sleep deprivation",
+        "hypoglycemia",
+        "anxiety",
+        "low mood",
+        "period cramps"
+      ]
+    },
+    {
+      "type": "root_cause",
+      "behavior": "low calorie intake",
+      "symptom": "fatigue",
+      "behavior_session": "USR003_S03",
+      "symptom_session": "USR003_S04",
+      "sessions_involved": [
+        "USR003_S03",
+        "USR003_S04"
+      ],
+      "occurrences": 1,
+      "candidate_strength": "strong",
+      "time_gaps": [
+        11
+      ],
+      "delay_tag": "short_delay",
+      "consistency_score": 1.0,
+      "counter_examples": [],
+      "linked_patterns": [
+        "cramps",
+        "sleep deprivation",
+        "anxiety",
+        "menstrual cramps",
+        "low mood",
+        "period cramps"
+      ]
+    },
+    {
+      "type": "root_cause",
+      "behavior": "high carbohydrate intake",
+      "symptom": "fatigue",
+      "behavior_session": "USR003_S03",
+      "symptom_session": "USR003_S04",
+      "sessions_involved": [
+        "USR003_S03",
+        "USR003_S04"
+      ],
+      "occurrences": 1,
+      "candidate_strength": "strong",
+      "time_gaps": [
+        11
+      ],
+      "delay_tag": "short_delay",
+      "consistency_score": 1.0,
+      "counter_examples": [],
+      "linked_patterns": [
+        "cramps",
+        "sleep deprivation",
+        "anxiety",
+        "menstrual cramps",
+        "low mood",
+        "period cramps"
+      ]
+    },
+    {
+      "type": "root_cause",
+      "behavior": "high sugar intake",
+      "symptom": "fatigue",
+      "behavior_session": "USR003_S03",
+      "symptom_session": "USR003_S04",
+      "sessions_involved": [
+        "USR003_S03",
+        "USR003_S04"
+      ],
+      "occurrences": 1,
+      "candidate_strength": "strong",
+      "time_gaps": [
+        11
+      ],
+      "delay_tag": "short_delay",
+      "consistency_score": 1.0,
+      "counter_examples": [],
+      "linked_patterns": [
+        "cramps",
+        "sleep deprivation",
+        "anxiety",
+        "menstrual cramps",
+        "low mood",
+        "period cramps"
+      ]
+    },
+    {
+      "type": "root_cause",
+      "behavior": "low calorie intake",
+      "symptom": "fatigue",
+      "behavior_session": "USR003_S03",
+      "symptom_session": "USR003_S06",
+      "sessions_involved": [
+        "USR003_S03",
+        "USR003_S06"
+      ],
+      "occurrences": 1,
+      "candidate_strength": "strong",
+      "time_gaps": [
+        28
+      ],
+      "delay_tag": "long_delay",
+      "consistency_score": 1.0,
+      "counter_examples": [],
+      "linked_patterns": [
+        "cramps",
+        "sleep deprivation",
+        "anxiety",
+        "menstrual cramps",
+        "low mood",
+        "period cramps"
+      ]
+    },
+    {
+      "type": "root_cause",
+      "behavior": "high carbohydrate intake",
+      "symptom": "fatigue",
+      "behavior_session": "USR003_S03",
+      "symptom_session": "USR003_S06",
+      "sessions_involved": [
+        "USR003_S03",
+        "USR003_S06"
+      ],
+      "occurrences": 1,
+      "candidate_strength": "strong",
+      "time_gaps": [
+        28
+      ],
+      "delay_tag": "long_delay",
+      "consistency_score": 1.0,
+      "counter_examples": [],
+      "linked_patterns": [
+        "cramps",
+        "sleep deprivation",
+        "anxiety",
+        "menstrual cramps",
+        "low mood",
+        "period cramps"
+      ]
+    },
+    {
+      "type": "root_cause",
+      "behavior": "high sugar intake",
+      "symptom": "fatigue",
+      "behavior_session": "USR003_S03",
+      "symptom_session": "USR003_S06",
+      "sessions_involved": [
+        "USR003_S03",
+        "USR003_S06"
+      ],
+      "occurrences": 1,
+      "candidate_strength": "strong",
+      "time_gaps": [
+        28
+      ],
+      "delay_tag": "long_delay",
+      "consistency_score": 1.0,
+      "counter_examples": [],
+      "linked_patterns": [
+        "cramps",
+        "sleep deprivation",
+        "anxiety",
+        "menstrual cramps",
+        "low mood",
+        "period cramps"
+      ]
+    },
+    {
+      "type": "root_cause",
+      "behavior": "low calorie intake",
+      "symptom": "fatigue",
+      "behavior_session": "USR003_S03",
+      "symptom_session": "USR003_S07",
+      "sessions_involved": [
+        "USR003_S03",
+        "USR003_S07"
+      ],
+      "occurrences": 1,
+      "candidate_strength": "strong",
+      "time_gaps": [
+        36
+      ],
+      "delay_tag": "long_delay",
+      "consistency_score": 1.0,
+      "counter_examples": [],
+      "linked_patterns": [
+        "cramps",
+        "sleep deprivation",
+        "anxiety",
+        "menstrual cramps",
+        "low mood",
+        "period cramps"
+      ]
+    },
+    {
+      "type": "root_cause",
+      "behavior": "high carbohydrate intake",
+      "symptom": "fatigue",
+      "behavior_session": "USR003_S03",
+      "symptom_session": "USR003_S07",
+      "sessions_involved": [
+        "USR003_S03",
+        "USR003_S07"
+      ],
+      "occurrences": 1,
+      "candidate_strength": "strong",
+      "time_gaps": [
+        36
+      ],
+      "delay_tag": "long_delay",
+      "consistency_score": 1.0,
+      "counter_examples": [],
+      "linked_patterns": [
+        "cramps",
+        "sleep deprivation",
+        "anxiety",
+        "menstrual cramps",
+        "low mood",
+        "period cramps"
+      ]
+    },
+    {
+      "type": "root_cause",
+      "behavior": "high sugar intake",
+      "symptom": "fatigue",
+      "behavior_session": "USR003_S03",
+      "symptom_session": "USR003_S07",
+      "sessions_involved": [
+        "USR003_S03",
+        "USR003_S07"
+      ],
+      "occurrences": 1,
+      "candidate_strength": "strong",
+      "time_gaps": [
+        36
+      ],
+      "delay_tag": "long_delay",
+      "consistency_score": 1.0,
+      "counter_examples": [],
+      "linked_patterns": [
+        "cramps",
+        "sleep deprivation",
+        "anxiety",
+        "menstrual cramps",
+        "low mood",
+        "period cramps"
+      ]
+    },
+    {
+      "type": "root_cause",
+      "behavior": "late night screen use",
+      "symptom": "fatigue",
+      "behavior_session": "USR003_S04",
+      "symptom_session": "USR003_S06",
+      "sessions_involved": [
+        "USR003_S04",
+        "USR003_S06"
+      ],
+      "occurrences": 1,
+      "candidate_strength": "strong",
+      "time_gaps": [
+        16
+      ],
+      "delay_tag": "long_delay",
+      "consistency_score": 0.67,
+      "counter_examples": [
+        "USR003_S09"
+      ],
+      "linked_patterns": [
+        "cramps",
+        "sleep deprivation",
+        "menstrual cramps",
+        "anxiety",
+        "period cramps"
+      ]
+    },
+    {
+      "type": "root_cause",
+      "behavior": "irregular sleep schedule",
+      "symptom": "fatigue",
+      "behavior_session": "USR003_S04",
+      "symptom_session": "USR003_S06",
+      "sessions_involved": [
+        "USR003_S04",
+        "USR003_S06"
+      ],
+      "occurrences": 1,
+      "candidate_strength": "strong",
+      "time_gaps": [
+        16
+      ],
+      "delay_tag": "long_delay",
+      "consistency_score": 1.0,
+      "counter_examples": [],
+      "linked_patterns": [
+        "cramps",
+        "sleep deprivation",
+        "menstrual cramps",
+        "anxiety",
+        "period cramps"
+      ]
+    },
+    {
+      "type": "root_cause",
+      "behavior": "late night screen use",
+      "symptom": "fatigue",
+      "behavior_session": "USR003_S04",
+      "symptom_session": "USR003_S07",
+      "sessions_involved": [
+        "USR003_S04",
+        "USR003_S07"
+      ],
+      "occurrences": 1,
+      "candidate_strength": "strong",
+      "time_gaps": [
+        25
+      ],
+      "delay_tag": "long_delay",
+      "consistency_score": 0.67,
+      "counter_examples": [
+        "USR003_S09"
+      ],
+      "linked_patterns": [
+        "cramps",
+        "sleep deprivation",
+        "menstrual cramps",
+        "anxiety",
+        "period cramps"
+      ]
+    },
+    {
+      "type": "root_cause",
+      "behavior": "irregular sleep schedule",
+      "symptom": "fatigue",
+      "behavior_session": "USR003_S04",
+      "symptom_session": "USR003_S07",
+      "sessions_involved": [
+        "USR003_S04",
+        "USR003_S07"
+      ],
+      "occurrences": 1,
+      "candidate_strength": "strong",
+      "time_gaps": [
+        25
+      ],
+      "delay_tag": "long_delay",
+      "consistency_score": 1.0,
+      "counter_examples": [],
+      "linked_patterns": [
+        "cramps",
+        "sleep deprivation",
+        "menstrual cramps",
+        "anxiety",
+        "period cramps"
+      ]
+    },
+    {
+      "type": "root_cause",
+      "behavior": "high protein intake at lunch",
+      "symptom": "fatigue",
+      "behavior_session": "USR003_S06",
+      "symptom_session": "USR003_S07",
+      "sessions_involved": [
+        "USR003_S06",
+        "USR003_S07"
+      ],
+      "occurrences": 1,
+      "candidate_strength": "strong",
+      "time_gaps": [
+        8
+      ],
+      "delay_tag": "short_delay",
+      "consistency_score": 1.0,
+      "counter_examples": [],
+      "linked_patterns": [
+        "cramps",
+        "sleep deprivation",
+        "menstrual cramps",
+        "anxiety"
+      ]
+    }
+  ]
+}

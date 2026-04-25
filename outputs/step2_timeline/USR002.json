@@ -1,0 +1,266 @@
+{
+  "user_id": "USR002",
+  "name": "Meera",
+  "age": 23,
+  "gender": "female",
+  "location": "Mumbai",
+  "occupation": "Marketing executive",
+  "total_sessions": 9,
+  "date_range": {
+    "first_session": "2026-01-08T08:30:00",
+    "last_session": "2026-03-18T09:40:00",
+    "total_days": 69
+  },
+  "timeline": [
+    {
+      "session_id": "USR002_S01",
+      "timestamp": "2026-01-08T08:30:00",
+      "days_since_start": 0,
+      "days_since_previous": 0,
+      "symptoms": [
+        {
+          "name": "dizziness",
+          "intensity": "mild",
+          "certainty": "reported"
+        }
+      ],
+      "behaviors": [
+        "intermittent fasting",
+        "low calorie intake"
+      ],
+      "context": [
+        "weight loss"
+      ],
+      "clary_interpretation": "Intermittent fasting works better at 1200-1400 calories not severe restriction.",
+      "event_window": [
+        "USR002_S01"
+      ]
+    },
+    {
+      "session_id": "USR002_S02",
+      "timestamp": "2026-01-15T19:45:00",
+      "days_since_start": 7,
+      "days_since_previous": 7,
+      "symptoms": [
+        {
+          "name": "acne",
+          "intensity": "moderate",
+          "certainty": "reported"
+        }
+      ],
+      "behaviors": [
+        "high dairy intake"
+      ],
+      "context": [
+        "low calorie diet"
+      ],
+      "clary_interpretation": "Cheek acne may be linked to dairy consumption due to hormone sensitivity.",
+      "event_window": [
+        "USR002_S01",
+        "USR002_S02"
+      ]
+    },
+    {
+      "session_id": "USR002_S03",
+      "timestamp": "2026-01-22T21:10:00",
+      "days_since_start": 14,
+      "days_since_previous": 7,
+      "symptoms": [
+        {
+          "name": "acne",
+          "intensity": "moderate",
+          "certainty": "reported"
+        },
+        {
+          "name": "acne on jawline",
+          "intensity": "mild",
+          "certainty": "reported"
+        }
+      ],
+      "behaviors": [
+        "high dairy intake"
+      ],
+      "context": [
+        "hormonal imbalance suspected"
+      ],
+      "clary_interpretation": "Acne spreading with increased dairy is a strong signal for hormonal triggers, suggest 2 week dairy reduction trial",
+      "event_window": [
+        "USR002_S01",
+        "USR002_S02",
+        "USR002_S03"
+      ]
+    },
+    {
+      "session_id": "USR002_S04",
+      "timestamp": "2026-02-01T10:00:00",
+      "days_since_start": 24,
+      "days_since_previous": 9,
+      "symptoms": [
+        {
+          "name": "acne",
+          "intensity": "mild",
+          "certainty": "reported"
+        }
+      ],
+      "behaviors": [
+        "low dairy intake"
+      ],
+      "context": [
+        "skin health"
+      ],
+      "clary_interpretation": "Dairy sensitivity confirmed within 1 week, observe for breakouts within 48-72 hours",
+      "event_window": [
+        "USR002_S02",
+        "USR002_S03",
+        "USR002_S04"
+      ]
+    },
+    {
+      "session_id": "USR002_S05",
+      "timestamp": "2026-02-10T07:55:00",
+      "days_since_start": 32,
+      "days_since_previous": 8,
+      "symptoms": [
+        {
+          "name": "fatigue",
+          "intensity": "moderate",
+          "certainty": "reported"
+        },
+        {
+          "name": "brain fog",
+          "intensity": "mild",
+          "certainty": "reported"
+        },
+        {
+          "name": "workout difficulty",
+          "intensity": "moderate",
+          "certainty": "reported"
+        }
+      ],
+      "behaviors": [
+        "low calorie intake"
+      ],
+      "context": [
+        "exercise"
+      ],
+      "clary_interpretation": "Under-fuelling due to significantly low calorie intake, leading to fatigue, brain fog, and workout difficulty.",
+      "event_window": [
+        "USR002_S03",
+        "USR002_S04",
+        "USR002_S05"
+      ]
+    },
+    {
+      "session_id": "USR002_S06",
+      "timestamp": "2026-02-19T20:30:00",
+      "days_since_start": 42,
+      "days_since_previous": 9,
+      "symptoms": [
+        {
+          "name": "hair loss",
+          "intensity": "severe",
+          "certainty": "reported"
+        }
+      ],
+      "behaviors": [
+        "low calorie intake",
+        "intermittent fasting"
+      ],
+      "context": [
+        "stress"
+      ],
+      "clary_interpretation": "Telogen effluvium, a reversible condition caused by severe calorie restriction, is likely the cause of hair loss.",
+      "event_window": [
+        "USR002_S04",
+        "USR002_S05",
+        "USR002_S06"
+      ]
+    },
+    {
+      "session_id": "USR002_S07",
+      "timestamp": "2026-02-27T11:20:00",
+      "days_since_start": 50,
+      "days_since_previous": 7,
+      "symptoms": [
+        {
+          "name": "acne",
+          "intensity": "mild",
+          "certainty": "suspected"
+        }
+      ],
+      "behaviors": [
+        "high dairy intake",
+        "low dairy intake"
+      ],
+      "context": [
+        "skin reaction"
+      ],
+      "clary_interpretation": "small amounts of dairy after a break sometimes works fine, but monitor closely for 7 days",
+      "event_window": [
+        "USR002_S05",
+        "USR002_S06",
+        "USR002_S07"
+      ]
+    },
+    {
+      "session_id": "USR002_S08",
+      "timestamp": "2026-03-07T22:15:00",
+      "days_since_start": 58,
+      "days_since_previous": 8,
+      "symptoms": [
+        {
+          "name": "hair loss",
+          "intensity": "mild",
+          "certainty": "resolved"
+        },
+        {
+          "name": "acne",
+          "intensity": "moderate",
+          "certainty": "reported"
+        }
+      ],
+      "behaviors": [
+        "high dairy intake"
+      ],
+      "context": [
+        "low calorie intake"
+      ],
+      "clary_interpretation": "Your body has a clear dairy threshold, with occasional consumption being fine but daily consumption leading to acne.",
+      "event_window": [
+        "USR002_S06",
+        "USR002_S07",
+        "USR002_S08"
+      ]
+    },
+    {
+      "session_id": "USR002_S09",
+      "timestamp": "2026-03-18T09:40:00",
+      "days_since_start": 69,
+      "days_since_previous": 10,
+      "symptoms": [
+        {
+          "name": "hair fall",
+          "intensity": "severe",
+          "certainty": "resolved"
+        },
+        {
+          "name": "skin issues",
+          "intensity": "mild",
+          "certainty": "resolved"
+        }
+      ],
+      "behaviors": [
+        "high calorie intake"
+      ],
+      "context": [
+        "dairy intake"
+      ],
+      "clary_interpretation": "Severe calorie restriction caused hair fall, and dairy intake affects skin.",
+      "event_window": [
+        "USR002_S07",
+        "USR002_S08",
+        "USR002_S09"
+      ]
+    }
+  ]
+}

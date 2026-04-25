@@ -1,0 +1,170 @@
+{
+  "user_id": "USR001",
+  "name": "Arjun",
+  "total_patterns_confirmed": 5,
+  "total_patterns_rejected": 1,
+  "confirmed_patterns": [
+    {
+      "pattern": "Late dinner causes stomach pain",
+      "behavior": "late dinner",
+      "symptom": "stomach pain",
+      "confidence": "very_high",
+      "sessions_involved": [
+        "USR001_S01",
+        "USR001_S04",
+        "USR001_S07",
+        "USR001_S09"
+      ],
+      "delay_type": "immediate",
+      "consistency_score": 1.0,
+      "counter_examples_found": 0,
+      "root_cause": null,
+      "downstream_patterns": [
+        "fatigue",
+        "headache"
+      ],
+      "reasoning_trace": [
+        "Step 1: Candidate 1, 4, 6, 8, 14, 16, 20 detected late dinner and stomach pain",
+        "Step 2: Time order check confirms late dinner precedes stomach pain",
+        "Step 3: Consistency check shows late dinner always precedes stomach pain",
+        "Step 4: No counter examples found",
+        "Step 5: Very high confidence due to multiple occurrences and no counter examples"
+      ],
+      "rejected": false
+    },
+    {
+      "pattern": "High calorie intake causes stomach pain",
+      "behavior": "high calorie intake",
+      "symptom": "stomach pain",
+      "confidence": "very_high",
+      "sessions_involved": [
+        "USR001_S01",
+        "USR001_S07"
+      ],
+      "delay_type": "immediate",
+      "consistency_score": 1.0,
+      "counter_examples_found": 0,
+      "root_cause": null,
+      "downstream_patterns": [
+        "fatigue",
+        "headache"
+      ],
+      "reasoning_trace": [
+        "Step 1: Candidate 2, 7, 9, 21 detected high calorie intake and stomach pain",
+        "Step 2: Time order check confirms high calorie intake precedes stomach pain",
+        "Step 3: Consistency check shows high calorie intake always precedes stomach pain",
+        "Step 4: No counter examples found",
+        "Step 5: Very high confidence due to multiple occurrences and no counter examples"
+      ],
+      "rejected": false
+    },
+    {
+      "pattern": "Low water intake causes headache",
+      "behavior": "low water intake",
+      "symptom": "headache",
+      "confidence": "very_high",
+      "sessions_involved": [
+        "USR001_S02",
+        "USR001_S06",
+        "USR001_S08"
+      ],
+      "delay_type": "immediate",
+      "consistency_score": 1.0,
+      "counter_examples_found": 0,
+      "root_cause": null,
+      "downstream_patterns": [
+        "lower back pain",
+        "stomach pain",
+        "fatigue"
+      ],
+      "reasoning_trace": [
+        "Step 1: Candidate 3, 10, 12, 18 detected low water intake and headache",
+        "Step 2: Time order check confirms low water intake precedes headache",
+        "Step 3: Consistency check shows low water intake always precedes headache",
+        "Step 4: No counter examples found",
+        "Step 5: Very high confidence due to multiple occurrences and no counter examples"
+      ],
+      "rejected": false
+    },
+    {
+      "pattern": "High stress causes stomach pain",
+      "behavior": "high stress",
+      "symptom": "stomach pain",
+      "confidence": "high",
+      "sessions_involved": [
+        "USR001_S04",
+        "USR001_S09"
+      ],
+      "delay_type": "immediate",
+      "consistency_score": 1.0,
+      "counter_examples_found": 0,
+      "root_cause": null,
+      "downstream_patterns": [
+        "fatigue",
+        "headache"
+      ],
+      "reasoning_trace": [
+        "Step 1: Candidate 5, 15, 17 detected high stress and stomach pain",
+        "Step 2: Time order check confirms high stress precedes stomach pain",
+        "Step 3: Consistency check shows high stress always precedes stomach pain",
+        "Step 4: No counter examples found",
+        "Step 5: High confidence due to multiple occurrences and no counter examples"
+      ],
+      "rejected": false
+    },
+    {
+      "pattern": "High coffee intake causes headache",
+      "behavior": "high coffee intake",
+      "symptom": "headache",
+      "confidence": "medium",
+      "sessions_involved": [
+        "USR001_S06",
+        "USR001_S08"
+      ],
+      "delay_type": "long_delay",
+      "consistency_score": 1.0,
+      "counter_examples_found": 0,
+      "root_cause": null,
+      "downstream_patterns": [
+        "stomach pain"
+      ],
+      "reasoning_trace": [
+        "Step 1: Candidate 19 detected high coffee intake and headache",
+        "Step 2: Time order check confirms high coffee intake precedes headache",
+        "Step 3: Consistency check shows high coffee intake always precedes headache",
+        "Step 4: No counter examples found",
+        "Step 5: Medium confidence due to limited occurrences and potential delayed effect"
+      ],
+      "rejected": false
+    }
+  ],
+  "rejected_patterns": [
+    {
+      "pattern": "Prolonged screen time causes headache",
+      "behavior": "prolonged screen time",
+      "symptom": "headache",
+      "confidence": "low",
+      "sessions_involved": [
+        "USR001_S02",
+        "USR001_S06"
+      ],
+      "delay_type": "long_delay",
+      "consistency_score": 1.0,
+      "counter_examples_found": 0,
+      "root_cause": null,
+      "downstream_patterns": [
+        "lower back pain",
+        "stomach pain",
+        "fatigue"
+      ],
+      "reasoning_trace": [
+        "Step 1: Candidate 11 detected prolonged screen time and headache",
+        "Step 2: Time order check confirms prolonged screen time precedes headache",
+        "Step 3: Consistency check shows prolonged screen time always precedes headache",
+        "Step 4: No counter examples found",
+        "Step 5: Rejected due to limited occurrences and potential delayed effect"
+      ],
+      "rejected": true
+    }
+  ]
+}

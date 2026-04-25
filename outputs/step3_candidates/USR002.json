@@ -1,0 +1,361 @@
+{
+  "user_id": "USR002",
+  "name": "Meera",
+  "total_candidates": 14,
+  "candidates": [
+    {
+      "type": "root_cause",
+      "behavior": "high dairy intake",
+      "symptom": "acne",
+      "sessions_involved": [
+        "USR002_S02",
+        "USR002_S03",
+        "USR002_S07",
+        "USR002_S08"
+      ],
+      "occurrences": 4,
+      "candidate_strength": "strong",
+      "time_gaps": [],
+      "delay_tag": "immediate",
+      "consistency_score": 1.0,
+      "counter_examples": [],
+      "linked_patterns": [
+        "brain fog",
+        "fatigue",
+        "acne on jawline",
+        "hair loss",
+        "workout difficulty"
+      ]
+    },
+    {
+      "type": "root_cause",
+      "behavior": "low dairy intake",
+      "symptom": "acne",
+      "sessions_involved": [
+        "USR002_S04",
+        "USR002_S07"
+      ],
+      "occurrences": 2,
+      "candidate_strength": "strong",
+      "time_gaps": [],
+      "delay_tag": "immediate",
+      "consistency_score": 1.0,
+      "counter_examples": [],
+      "linked_patterns": [
+        "brain fog",
+        "fatigue",
+        "hair loss",
+        "workout difficulty"
+      ]
+    },
+    {
+      "type": "root_cause",
+      "behavior": "intermittent fasting",
+      "symptom": "hair loss",
+      "behavior_session": "USR002_S01",
+      "symptom_session": "USR002_S06",
+      "sessions_involved": [
+        "USR002_S01",
+        "USR002_S06"
+      ],
+      "occurrences": 1,
+      "candidate_strength": "strong",
+      "time_gaps": [
+        42
+      ],
+      "delay_tag": "long_delay",
+      "consistency_score": 0.5,
+      "counter_examples": [],
+      "linked_patterns": [
+        "acne",
+        "brain fog",
+        "fatigue",
+        "acne on jawline",
+        "workout difficulty"
+      ]
+    },
+    {
+      "type": "root_cause",
+      "behavior": "high dairy intake",
+      "symptom": "acne",
+      "behavior_session": "USR002_S02",
+      "symptom_session": "USR002_S03",
+      "sessions_involved": [
+        "USR002_S02",
+        "USR002_S03"
+      ],
+      "occurrences": 1,
+      "candidate_strength": "strong",
+      "time_gaps": [
+        7
+      ],
+      "delay_tag": "short_delay",
+      "consistency_score": 1.0,
+      "counter_examples": [],
+      "linked_patterns": [
+        "brain fog",
+        "fatigue",
+        "acne on jawline",
+        "hair loss",
+        "workout difficulty"
+      ]
+    },
+    {
+      "type": "root_cause",
+      "behavior": "high dairy intake",
+      "symptom": "acne",
+      "behavior_session": "USR002_S02",
+      "symptom_session": "USR002_S04",
+      "sessions_involved": [
+        "USR002_S02",
+        "USR002_S04"
+      ],
+      "occurrences": 1,
+      "candidate_strength": "strong",
+      "time_gaps": [
+        16
+      ],
+      "delay_tag": "long_delay",
+      "consistency_score": 1.0,
+      "counter_examples": [],
+      "linked_patterns": [
+        "brain fog",
+        "fatigue",
+        "acne on jawline",
+        "hair loss",
+        "workout difficulty"
+      ]
+    },
+    {
+      "type": "root_cause",
+      "behavior": "high dairy intake",
+      "symptom": "acne",
+      "behavior_session": "USR002_S02",
+      "symptom_session": "USR002_S07",
+      "sessions_involved": [
+        "USR002_S02",
+        "USR002_S07"
+      ],
+      "occurrences": 1,
+      "candidate_strength": "strong",
+      "time_gaps": [
+        42
+      ],
+      "delay_tag": "long_delay",
+      "consistency_score": 1.0,
+      "counter_examples": [],
+      "linked_patterns": [
+        "brain fog",
+        "fatigue",
+        "acne on jawline",
+        "hair loss",
+        "workout difficulty"
+      ]
+    },
+    {
+      "type": "root_cause",
+      "behavior": "high dairy intake",
+      "symptom": "acne",
+      "behavior_session": "USR002_S02",
+      "symptom_session": "USR002_S08",
+      "sessions_involved": [
+        "USR002_S02",
+        "USR002_S08"
+      ],
+      "occurrences": 1,
+      "candidate_strength": "strong",
+      "time_gaps": [
+        51
+      ],
+      "delay_tag": "long_delay",
+      "consistency_score": 1.0,
+      "counter_examples": [],
+      "linked_patterns": [
+        "brain fog",
+        "fatigue",
+        "acne on jawline",
+        "hair loss",
+        "workout difficulty"
+      ]
+    },
+    {
+      "type": "root_cause",
+      "behavior": "high dairy intake",
+      "symptom": "acne",
+      "behavior_session": "USR002_S03",
+      "symptom_session": "USR002_S04",
+      "sessions_involved": [
+        "USR002_S03",
+        "USR002_S04"
+      ],
+      "occurrences": 1,
+      "candidate_strength": "strong",
+      "time_gaps": [
+        9
+      ],
+      "delay_tag": "short_delay",
+      "consistency_score": 1.0,
+      "counter_examples": [],
+      "linked_patterns": [
+        "brain fog",
+        "fatigue",
+        "acne on jawline",
+        "hair loss",
+        "workout difficulty"
+      ]
+    },
+    {
+      "type": "root_cause",
+      "behavior": "high dairy intake",
+      "symptom": "acne",
+      "behavior_session": "USR002_S03",
+      "symptom_session": "USR002_S07",
+      "sessions_involved": [
+        "USR002_S03",
+        "USR002_S07"
+      ],
+      "occurrences": 1,
+      "candidate_strength": "strong",
+      "time_gaps": [
+        35
+      ],
+      "delay_tag": "long_delay",
+      "consistency_score": 1.0,
+      "counter_examples": [],
+      "linked_patterns": [
+        "brain fog",
+        "fatigue",
+        "acne on jawline",
+        "hair loss",
+        "workout difficulty"
+      ]
+    },
+    {
+      "type": "root_cause",
+      "behavior": "high dairy intake",
+      "symptom": "acne",
+      "behavior_session": "USR002_S03",
+      "symptom_session": "USR002_S08",
+      "sessions_involved": [
+        "USR002_S03",
+        "USR002_S08"
+      ],
+      "occurrences": 1,
+      "candidate_strength": "strong",
+      "time_gaps": [
+        44
+      ],
+      "delay_tag": "long_delay",
+      "consistency_score": 1.0,
+      "counter_examples": [],
+      "linked_patterns": [
+        "brain fog",
+        "fatigue",
+        "acne on jawline",
+        "hair loss",
+        "workout difficulty"
+      ]
+    },
+    {
+      "type": "root_cause",
+      "behavior": "low dairy intake",
+      "symptom": "acne",
+      "behavior_session": "USR002_S04",
+      "symptom_session": "USR002_S07",
+      "sessions_involved": [
+        "USR002_S04",
+        "USR002_S07"
+      ],
+      "occurrences": 1,
+      "candidate_strength": "strong",
+      "time_gaps": [
+        26
+      ],
+      "delay_tag": "long_delay",
+      "consistency_score": 1.0,
+      "counter_examples": [],
+      "linked_patterns": [
+        "brain fog",
+        "fatigue",
+        "hair loss",
+        "workout difficulty"
+      ]
+    },
+    {
+      "type": "root_cause",
+      "behavior": "low dairy intake",
+      "symptom": "acne",
+      "behavior_session": "USR002_S04",
+      "symptom_session": "USR002_S08",
+      "sessions_involved": [
+        "USR002_S04",
+        "USR002_S08"
+      ],
+      "occurrences": 1,
+      "candidate_strength": "strong",
+      "time_gaps": [
+        34
+      ],
+      "delay_tag": "long_delay",
+      "consistency_score": 1.0,
+      "counter_examples": [],
+      "linked_patterns": [
+        "brain fog",
+        "fatigue",
+        "hair loss",
+        "workout difficulty"
+      ]
+    },
+    {
+      "type": "root_cause",
+      "behavior": "high dairy intake",
+      "symptom": "acne",
+      "behavior_session": "USR002_S07",
+      "symptom_session": "USR002_S08",
+      "sessions_involved": [
+        "USR002_S07",
+        "USR002_S08"
+      ],
+      "occurrences": 1,
+      "candidate_strength": "strong",
+      "time_gaps": [
+        8
+      ],
+      "delay_tag": "short_delay",
+      "consistency_score": 1.0,
+      "counter_examples": [],
+      "linked_patterns": [
+        "brain fog",
+        "fatigue",
+        "acne on jawline",
+        "hair loss",
+        "workout difficulty"
+      ]
+    },
+    {
+      "type": "root_cause",
+      "behavior": "low dairy intake",
+      "symptom": "acne",
+      "behavior_session": "USR002_S07",
+      "symptom_session": "USR002_S08",
+      "sessions_involved": [
+        "USR002_S07",
+        "USR002_S08"
+      ],
+      "occurrences": 1,
+      "candidate_strength": "strong",
+      "time_gaps": [
+        8
+      ],
+      "delay_tag": "short_delay",
+      "consistency_score": 1.0,
+      "counter_examples": [],
+      "linked_patterns": [
+        "brain fog",
+        "fatigue",
+        "hair loss",
+        "workout difficulty"
+      ]
+    }
+  ]
+}
